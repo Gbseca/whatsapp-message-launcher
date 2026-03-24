@@ -1,0 +1,5 @@
+{
+  "name": "Gestão de Reativação - Regional SG",
+  "description": "Ferramenta para envio em massa de mensagens personalizadas no WhatsApp",
+  "requestFramePermissions": []
+}

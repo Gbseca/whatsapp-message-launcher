@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@theme {
+  --color-moove-blue: #0A192F;
+  --color-moove-yellow: #FFC72C;
+  --color-wpp-green: #25D366;
+  --color-wpp-hover: #20bd5a;
+}
