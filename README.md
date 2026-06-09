@@ -1,20 +1,48 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# WhatsApp Message Launcher
 
-# Run and deploy your AI Studio app
+Ferramenta para preparar mensagens personalizadas e gerar links de envio pelo WhatsApp a partir de uma lista de contatos. O projeto foi pensado para operacoes comerciais simples, em que a equipe precisa ganhar velocidade sem automatizar disparos indevidos.
 
-This contains everything you need to run your app locally.
+## Funcionalidades
 
-View your app in AI Studio: https://ai.studio/apps/f5bf66c8-d02a-4bfd-a58e-ad5092f64480
+- Importacao de contatos em texto.
+- Template de mensagem com substituicao por nome.
+- Geracao de links para WhatsApp Web ou aplicativo.
+- Marcacao de contatos ja processados.
+- Formatacao visual de telefones.
+- Interface responsiva para uso rapido durante atendimento.
 
-## Run Locally
+## Stack
 
-**Prerequisites:**  Node.js
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Express
+- Lucide React
 
+## Como Rodar
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```bash
+npm install
+npm run dev
+```
+
+Se usar recursos com IA, configure:
+
+```bash
+GEMINI_API_KEY=
+```
+
+## Formato De Entrada
+
+Cada linha deve seguir o formato:
+
+```text
+Nome;Telefone
+Maria Silva;5521999999999
+```
+
+## Observacoes
+
+O projeto gera atalhos de envio manual. Ele nao faz disparo automatico em massa, o que reduz risco operacional e deixa o uso mais adequado para rotina comercial.
+
